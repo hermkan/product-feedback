@@ -9,29 +9,31 @@ function Ds() {
           <span>03</span> Interactive elements
         </h2>
 
-        {/* <!-- navigation --> */}
         <div />
 
         <div className="flex">
           <div>
             {/* <!-- vote button --> */}
-            <button type="button" className="vote-button">
-              <span>
-                <MdOutlineKeyboardArrowUp
-                  style={{
-                    color: '#4661E6',
-                    width: '28px',
-                    height: '24px',
-                  }}
-                />
-              </span>
+            <button
+              type="button"
+              className="large-button uppercase ff-sans-normal fs-300 text-dark bg-white-200"
+            >
+              <MdOutlineKeyboardArrowUp className="arrow" size={30} />
               99
+            </button>
+            <button
+              type="button"
+              className="small-button uppercase ff-sans-normal fs-400 text-purple bg-white-200"
+            >
+              UX
             </button>
           </div>
 
           <div>
-            {/* <!-- Tabs --> */}
-
+            {/* <!-- dropdown menu --> */}
+            <div className="dropdown ff-sans-normal fs-400 text-white bg-navy-200">
+              <div className="dropdown-content"> content</div>
+            </div>
             {/* <!-- Dots --> */}
 
             {/* <!-- Numbers --> */}

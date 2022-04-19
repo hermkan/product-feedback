@@ -7,6 +7,7 @@
 
   --clr-purple-200: 282, 83%, 52%;
   --clr-purple-100: 230, 76%, 59%;
+  --clr-purple-300: 230, 76%, 59%;
   --clr-navy-100: 230, 31%, 31%;
   --clr-navy-200: 231, 33%, 34%;
   --clr-white-100: 0, 0%, 100%;
@@ -187,6 +188,9 @@ select {
 .text-dark {
   color: hsl(var(--clr-navy-200));
 }
+.text-purple {
+  color: hsl(var(--clr-purple-300));
+}
 .text-accent {
   color: hsl(var(--clr-white-100));
 }
@@ -269,35 +273,53 @@ select {
 /* Components         */
 /* ------------------- */
 
-.vote-button {
-  padding: 0.4em 0.7em;
-  display: grid;
-  place-items: center;
-  aspect-ratio: 4/5;
-  border: transparent;
+.small-button {
+  height: 30px;
+  width: 48px;
   border-radius: 10px;
-  background-color: var(--clr-white-200 / 1.2);
-  background: #f2f4fe;
-  color: hsla(231, 33%, 34%, 1);
+  border: transparent;
+  transition: background 0.3s;
+}
+.small-button:hover {
+  background-color: #cfd7ff;
+}
+.small-button:active {
+  background-color: #4661e6;
+  color: #fff;
 }
 .large-button {
-  position: relative;
-  z-index: 1;
   display: grid;
   place-items: center;
-  padding: 0 2em;
-  border-radius: 50%;
-  aspect-ratio: 1;
-  text-decoration: none;
+  height: 53px;
+  width: 40px;
+  padding-bottom: 3.5em;
+  border-radius: 10%;
+  border: transparent;
+  transition: background 0.3s;
+  margin-bottom: 2rem;
+}
+.arrow {
+  color: #4661e6;
+}
+.large-button:hover {
+  background-color: #cfd7ff;
 }
 
-.large-button::after {
+.large-button:active {
+  background-color: #4661e6;
+  color: #fff;
+}
+.large-button:active > * {
+  color: #fff;
+}
+/* .large-button::after {
   content: '';
   position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
   background: hsl(var(--clr-white) / 0.1);
+  background: red;
   border-radius: 50%;
   opacity: 0;
   transition: opacity 500ms linear, transform 750ms ease-in-out;
@@ -307,7 +329,7 @@ select {
 .large-button:focus::after {
   opacity: 1;
   transform: scale(1.5);
-}
+} */
 
 .primary-navigation {
   --gap: 8rem;
