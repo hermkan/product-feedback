@@ -22,6 +22,10 @@ module.exports = {
       '4xl': ['1.5rem', { lineHeight: '2.1875rem', letterSpacing: '-.0.33' }],
     },
     extend: {
+      colors: {
+        'purple-100-hover': '#C75AF6',
+        'purple-200': '#4661e6',
+      },
       textColor: {
         skin: {
           base: withOpacity('--color-base'),
@@ -29,6 +33,7 @@ module.exports = {
           accent: withOpacity('--color-text-accent'),
           'accent-navy': withOpacity('--color-dark-navy-200'),
           'accent-slate': withOpacity('--color-text-accent-slate'),
+          'accent-purple-50': withOpacity('--color-fill-purple-hover-100'),
         },
       },
       backgroundColor: {
@@ -41,6 +46,7 @@ module.exports = {
           'tag-white-hover': withOpacity('--color-tag-white-hover'),
           'tag-violet-default': withOpacity('--color-tag-violet-default'),
           'fill-purple-100': withOpacity('--color-fill-purple-100'),
+          'fill-purple-hover': withOpacity('--color-fill-purple-hover'),
           'fill-navy-300': withOpacity('--color-fill-navy-300'),
         },
       },

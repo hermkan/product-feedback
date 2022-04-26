@@ -8,7 +8,9 @@ function Roadmap() {
         <span className="text-skin-accent-navy font-bold text-2xl">
           Roadmap
         </span>
-        <span className="text-skin-accent underline">View</span>
+        <span className="text-skin-accent underline  cursor-pointer hover:text-skin-accent-purple-50">
+          View
+        </span>
       </div>
       <div className="flex flex-col">
         <div className="flex justify-between pr-5">

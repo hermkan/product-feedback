@@ -84,8 +84,11 @@ select {
   :root {
     /* colors */
     --color-body: #f7f8fd;
+    --color-purple-50: 131, 151, 248;
     --color-purple-100: 173, 31, 234;
-    --color-purple-200: 173, 31, 234;
+    --color-purple-200: 207, 215, 255;
+    --color-purple-300: #4661e6;
+
     --color-blue-100: 207, 215, 255;
 
     --color-violet-100: 124, 145, 249;
@@ -153,6 +156,8 @@ select {
     --color-tag-violet-default: var(--color-violet-200);
     --color-fill-navy-300: var(--color-dark-navy-300);
     --color-fill-purple-100: var(--color-purple-100);
+    --color-fill-purple-hover: var(--color-purple-200);
+    --color-fill-purple-hover-100: var(--color-purple-50);
 
     /* font size */
     --fs-extra-small: var(--fs-100);
@@ -171,4 +176,14 @@ select {
     #ad1fea 60%,
     #f49f85 100%
   );
+}
+.arr-up {
+  stroke: #4661e6;
+}
+
+.vote-container:active .arr-up {
+  stroke: #fff;
+}
+.vote-container:active .vote-number {
+  color: #fff;
 }

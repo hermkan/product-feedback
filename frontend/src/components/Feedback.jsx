@@ -11,11 +11,11 @@ function Feedback() {
           <VoteTag />
         </section>
 
-        <section className="flex flex-col gap-2">
+        <section className="flex flex-col h-32 gap-2">
           <h3 className="font-bold text-2xl text-skin-accent-navy">
             Add a dark Theme Option
           </h3>
-          <p className="text-skin-accent-slate text-xl mb-3">
+          <p className="text-skin-accent-slate text-xl">
             It would help people with light sensitivities and who prefer dark
             mode.
           </p>

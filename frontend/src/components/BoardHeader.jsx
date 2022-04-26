@@ -12,15 +12,15 @@ function BoardHeader() {
       </div>
       <div className="flex gap-2 items-center">
         <span>
-          <span className="text-sm font-normal">Sort by : </span>
+          <span className="text-sm font-normal cursor-pointer">Sort by : </span>
           <span className="font-bold">Most upvotes</span>
         </span>
         <span>
           <ArrowDown />
         </span>
       </div>
-      <div className="justify-self-end bg-skin-fill-purple-100 w-w-btn h-h-btn rounded-10 flex justify-center items-center">
-        <div className="flex items-center gap-x-2">
+      <div className="justify-self-end bg-skin-fill-purple-100 w-w-btn h-h-btn rounded-10 flex justify-center items-center hover:bg-purple-100-hover">
+        <div className="flex items-center gap-x-2 cursor-pointer">
           <span className="flex items-end justify-center">
             <PlusIcon />
           </span>
