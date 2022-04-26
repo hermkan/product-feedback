@@ -18,7 +18,7 @@ function Roadmap() {
             </div>
             <div>Planned</div>
           </div>
-          <div>2</div>
+          <div className="font-bold text-xl">2</div>
         </div>
 
         <div className="flex justify-between pr-5">
@@ -28,7 +28,7 @@ function Roadmap() {
             </div>
             <div>In-Progress</div>
           </div>
-          <div>3</div>
+          <div className="font-bold text-xl">3</div>
         </div>
 
         <div className="flex justify-between pr-5">
@@ -38,7 +38,7 @@ function Roadmap() {
             </div>
             <div>Live</div>
           </div>
-          <div>1</div>
+          <div className="font-bold text-xl">1</div>
         </div>
       </div>
     </div>

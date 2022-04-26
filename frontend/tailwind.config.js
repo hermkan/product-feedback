@@ -28,6 +28,7 @@ module.exports = {
           inverted: withOpacity('--color-text-inverted'),
           accent: withOpacity('--color-text-accent'),
           'accent-navy': withOpacity('--color-dark-navy-200'),
+          'accent-slate': withOpacity('--color-text-accent-slate'),
         },
       },
       backgroundColor: {
@@ -39,25 +40,41 @@ module.exports = {
           'tag-white': withOpacity('--color-tag-white-default'),
           'tag-white-hover': withOpacity('--color-tag-white-hover'),
           'tag-violet-default': withOpacity('--color-tag-violet-default'),
+          'fill-purple-100': withOpacity('--color-fill-purple-100'),
+          'fill-navy-300': withOpacity('--color-fill-navy-300'),
         },
       },
       fontFamily: {
         'ff-sans-normal': 'var(--ff-sans-normal)',
       },
       width: {
+        // desktop:
         'w-btn': '9.875rem',
         'w-ind': '2.5rem',
         'w-ind-ux': '3rem',
         'w-tags-container': '15.9375rem',
+        'w-board-header': '51.5625rem',
+        'w-feedback': '51.5625rem',
+        'w-fb-cnt-cn': '47.5625rem',
+
+        // mobile:
       },
       height: {
         'h-btn': '2.75rem',
         'h-ind': '3.3125rem',
         'h-ind-ux': '1.875rem',
         'h-tags-container': '10.375rem',
+        'h-header-container': '8.5625rem',
+        'h-board-header': '4.5rem',
+        'h-feedback': '12.5rem',
+        'h-fb-cnt-cn': '5.9375rem',
       },
       borderRadius: {
         10: '.625rem',
+      },
+
+      backgroundImage: {
+        'bg-header': "url('/assets/suggestions/desktop/background-header.png')",
       },
     },
   },
