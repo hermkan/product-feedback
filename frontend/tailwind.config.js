@@ -34,6 +34,7 @@ module.exports = {
           'accent-navy': withOpacity('--color-dark-navy-200'),
           'accent-slate': withOpacity('--color-text-accent-slate'),
           'accent-purple-50': withOpacity('--color-fill-purple-hover-100'),
+          'accent-purple-100': withOpacity('--color-text-accent-purple-100'),
         },
       },
       backgroundColor: {
@@ -62,6 +63,7 @@ module.exports = {
         'w-board-header': '51.5625rem',
         'w-feedback': '51.5625rem',
         'w-fb-cnt-cn': '47.5625rem',
+        'w-drpmn': '15.9375rem',
 
         // mobile:
       },
@@ -74,6 +76,7 @@ module.exports = {
         'h-board-header': '4.5rem',
         'h-feedback': '12.5rem',
         'h-fb-cnt-cn': '5.9375rem',
+        'h-drpmn': '12rem',
       },
       borderRadius: {
         10: '.625rem',
@@ -81,6 +84,12 @@ module.exports = {
 
       backgroundImage: {
         'bg-header': "url('/assets/suggestions/desktop/background-header.png')",
+      },
+      divideWidth: {
+        1: '0.5px',
+      },
+      divideColor: {
+        'accent-navy': withOpacity('--color-text-accent-navy'),
       },
     },
   },

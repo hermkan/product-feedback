@@ -3,7 +3,7 @@ import ArrowUp from './ArrowUp';
 
 function VoteTag() {
   return (
-    <div className="w-w-ind h-h-ind rounded-10 bg    bg-skin-tag-white font-bold flex flex-col items-center justify-center gap-2 hover:bg-skin-fill-purple-hover cursor-pointer vote-container active:bg-purple-200">
+    <div className="w-w-ind h-h-ind rounded-10 bg    bg-skin-tag-white font-bold flex flex-col items-center justify-center gap-2 hover:bg-skin-fill-purple-hover cursor-pointer vote-container active:bg-purple-200 transition-all duration-700">
       <span>
         <ArrowUp />
       </span>

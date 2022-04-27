@@ -5,7 +5,7 @@ import VoteTag from './VoteTag';
 
 function Feedback() {
   return (
-    <div className="bg-skin-fill w-w-feedback h-h-feedback rounded-10 flex items-center justify-center">
+    <div className="bg-skin-fill w-w-feedback h-h-feedback rounded-10 flex items-center justify-center hover:cursor-pointer hover:shadow-xl transition-shadow duration-500">
       <div className="w-w-fb-cnt-cn h-h-fb-cnt-cn flex gap-10">
         <section className="self-start">
           <VoteTag />

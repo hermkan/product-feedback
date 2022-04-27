@@ -107,6 +107,9 @@ select {
     --color-dark-navy-200: 58, 67, 116;
     --color-dark-navy-300: 55, 63, 104;
     --color-slate: 100, 113, 150;
+    --test: rgba(58,67,116,1.0)
+    
+
 
     /* font size */
     --fs-650: 9.375rem;
@@ -149,6 +152,8 @@ select {
     --color-text-accent: var(--color-violet-200);
     --color-text-accent-navy: var(--color-dark-navy-200);
     --color-text-accent-slate: var(--color-slate);
+    --color-text-accent-purple-100: var(--color-purple-100);
+
 
     /* background-color */
     --color-tag-white-default: var(--color-white-200);
