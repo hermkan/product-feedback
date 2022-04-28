@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Comments() {
+function CommentIcon() {
   return (
     <svg width="18" height="16" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -14,4 +14,4 @@ function Comments() {
   );
 }
 
-export default Comments;
+export default CommentIcon;

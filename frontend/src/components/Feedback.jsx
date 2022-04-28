@@ -1,5 +1,5 @@
 import React from 'react';
-import Comments from './Comments';
+import CommentIcon from './CommentIcon';
 import Tag from './Tag';
 import VoteTag from './VoteTag';
 
@@ -24,7 +24,7 @@ function Feedback() {
 
         <section className="ml-auto flex gap-2 items-center">
           <div>
-            <Comments />
+            <CommentIcon />
           </div>
           <div className="text-skin-accent-navy font-bold">4</div>
         </section>

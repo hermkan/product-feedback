@@ -25,6 +25,8 @@ module.exports = {
       colors: {
         'purple-100-hover': '#C75AF6',
         'purple-200': '#4661e6',
+        'com-slate-200': '#F7F8FD',
+        'accent-navy': '#3A4374',
       },
       textColor: {
         skin: {
@@ -64,6 +66,15 @@ module.exports = {
         'w-feedback': '51.5625rem',
         'w-fb-cnt-cn': '47.5625rem',
         'w-drpmn': '15.9375rem',
+        'w-no-fdb': '25.625rem',
+        'w-cmts': '45.625rem',
+        'w-typ-cmts': '41.5rem',
+        'w-com': '43.75rem',
+        'w-photo': '2.5rem',
+        'w-edit-form': '33.75rem',
+        'w-edit-input': '28.5rem',
+        'w-edit-title': '18.125rem',
+        'w-canc-btn': '5.8125rem',
 
         // mobile:
       },
@@ -77,6 +88,16 @@ module.exports = {
         'h-feedback': '12.5rem',
         'h-fb-cnt-cn': '5.9375rem',
         'h-drpmn': '12rem',
+        'h-no-fdb': '23.6875rem',
+        'h-cmts': '15.375rem',
+        'h-typ-cmts': '5rem',
+        'h-com': '190px',
+        'h-photo': '2.5rem',
+        'h-edit-form': '41.0625rem',
+        'h-edit-input': '3rem',
+        'h-edit-title': '2.1875rem',
+        'h-edit-cont': '50rem',
+        'h-canc-btn': '2.75rem',
       },
       borderRadius: {
         10: '.625rem',

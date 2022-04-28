@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
+import AddComments from './components/AddComments';
 import BoardHeader from './components/BoardHeader';
-import DesignSystem from './components/DesignSystem';
-import Feedback from './components/Feedback';
+import Comment from './components/Comment';
+import CreateFeedbackForm from './components/CreateFeedbackForm';
 import Feedbacks from './components/Feedbacks';
 import Header from './components/Header';
+import Nofeedback from './components/Nofeedback';
 import Sidebar from './components/Sidebar';
-import Tag from './components/Tag';
-import Tags from './components/Tags';
-import Dashboard from './components/training/Dashboard';
-import Flexbox from './components/training/Flexbox';
-import Grid from './components/training/Grid';
 
 function App() {
   return (
@@ -18,6 +15,10 @@ function App() {
       <Sidebar />
       <BoardHeader />
       <Feedbacks />
+      <Nofeedback />
+      <AddComments />
+      <Comment />
+      <CreateFeedbackForm />
     </main>
   );
 }
