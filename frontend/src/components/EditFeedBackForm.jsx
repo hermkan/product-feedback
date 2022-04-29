@@ -1,19 +1,20 @@
 import React from 'react';
 import AddFeedbackbuttonNoPlus from './AddFeedbackbuttonNoPlus';
-import AddFeedbackIcon from './AddFeedbackIcon';
 import CancelButton from './CancelButton';
-import NewFeedBackDropDown from './NewFeedBackDropDown';
+import DeleteButton from './DeleteButton';
+import EditFeedBackIcon from './EditFeedBackIcon';
+import StatusDropDown from './StatusDropDown';
 
-function CreateFeedbackForm() {
+function EditFeedBackForm() {
   return (
-    <div className="h-h-edit-cont w-w-edit-form flex items-end mt-10 relative">
-      <div className="mt-10 w-w-edit-form h-h-edit-form bg-skin-fill rounded-10 pt-16 pl-10 ">
-        <div className="absolute top-28 left-16">
-          <AddFeedbackIcon />
+    <div className="w-w-edit-feedb-form flex  mt-10 relative h-h-form-cont">
+      <div className="mt-10 w-w-edit-form h-h-edit-feed-form bg-skin-fill rounded-10 pt-16 pl-10">
+        <div className="absolute top-6 left-16">
+          <EditFeedBackIcon />
         </div>
-        <div className="w-w-edit-title h-h-edit-title">
+        <div className=" w-w-edit-form-title h-h-edit-form-title">
           <h2 className="font-bold text-4xl text-skin-accent-navy w-full">
-            Create New Feedback
+            Editing ‘Add a dark theme option’
           </h2>
         </div>
 
@@ -33,7 +34,7 @@ function CreateFeedbackForm() {
             />
           </div>
 
-          <div className="Feedback  title h-24 flex flex-col gap-4 relative">
+          <div className="Feedback  title h-24 flex flex-col gap-4">
             <label htmlFor="" className="h-1/2">
               <p className=" text-skin-accent-navy text-sm font-bold">
                 Category
@@ -46,11 +47,25 @@ function CreateFeedbackForm() {
               type="text"
               className="bg-com-slate-200  w-w-edit-input h-h-edit-input"
             />
-            <div className="absolute left-96 -bottom-56">
-              <NewFeedBackDropDown />
-            </div>
           </div>
 
+          <div className="Feedback title flex flex-col gap-4">
+            <label htmlFor="" className="h-1/2">
+              <p className=" text-skin-accent-navy text-sm font-bold">
+                Update Status
+              </p>
+              <p className="text-skin-accent-slate text-sm font-normal">
+                Change feature state
+              </p>
+            </label>
+            <input
+              type="text"
+              className="bg-com-slate-200  w-w-edit-input h-h-edit-input"
+            />
+            <div className="absolute left-96 bottom-56">
+              <StatusDropDown />
+            </div>
+          </div>
           <div className="Feedback title flex flex-col gap-4">
             <label htmlFor="" className="h-1/2">
               <p className=" text-skin-accent-navy text-sm font-bold">
@@ -62,10 +77,15 @@ function CreateFeedbackForm() {
             </label>
             <textarea className="bg-com-slate-200  w-w-edit-input h-24" />
           </div>
-          <div className="pr-10 mt-3 flex justify-end">
-            <div className="btn-containers gap-4 flex">
-              <CancelButton />
-              <AddFeedbackbuttonNoPlus />
+          <div className="pr-10 mt-16 flex justify-end">
+            <div className="btn-containers gap-4 flex justify-between w-full">
+              <div>
+                <DeleteButton />
+              </div>
+              <div className="flex gap-4">
+                <CancelButton />
+                <AddFeedbackbuttonNoPlus />
+              </div>
             </div>
           </div>
         </form>
@@ -74,4 +94,4 @@ function CreateFeedbackForm() {
   );
 }
 
-export default CreateFeedbackForm;
+export default EditFeedBackForm;

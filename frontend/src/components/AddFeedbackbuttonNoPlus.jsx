@@ -4,9 +4,9 @@ function AddFeedbackbuttonNoPlus() {
   return (
     <button
       type="button"
-      className=" bg-accent-navy text-skin-base  w-w-canc-btn h-h-canc-btn rounded-10 flex justify-center items-center hover:bg-purple-100-hover transition-all duration-700"
+      className="bg-skin-fill-purple-100 w-w-btn h-h-btn rounded-10 flex justify-center items-center hover:bg-purple-100-hover transition-all duration-700 cursor-pointer text-skin-base"
     >
-      <span className="text-skin-base">Cancel</span>
+      Add FeedBack
     </button>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import AddFeedbackButton from './AddFeedbackButton';
 import ArrowDown from './ArrowDown';
-import DropDown from './DropDown';
+import BoardHeaderDropDown from './BoardHeaderDropDown';
 import SuggIcon from './SuggIcon';
 
 function BoardHeader() {
@@ -20,7 +20,7 @@ function BoardHeader() {
           <ArrowDown />
         </span>
         <div className="absolute top-16">
-          <DropDown />
+          <BoardHeaderDropDown />
         </div>
       </div>
       <AddFeedbackButton />

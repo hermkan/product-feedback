@@ -3,6 +3,7 @@ import AddComments from './components/AddComments';
 import BoardHeader from './components/BoardHeader';
 import Comment from './components/Comment';
 import CreateFeedbackForm from './components/CreateFeedbackForm';
+import EditFeedBackForm from './components/EditFeedBackForm';
 import Feedbacks from './components/Feedbacks';
 import Header from './components/Header';
 import Nofeedback from './components/Nofeedback';
@@ -19,6 +20,7 @@ function App() {
       <AddComments />
       <Comment />
       <CreateFeedbackForm />
+      <EditFeedBackForm />
     </main>
   );
 }
