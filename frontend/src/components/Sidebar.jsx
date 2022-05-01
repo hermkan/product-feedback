@@ -1,12 +1,12 @@
 import React from 'react';
-import Roadmap from './Roadmap';
+import SidebarRoadmap from './SidebarRoadmap';
 import Tags from './Tags';
 
 function Sidebar() {
   return (
-    <aside>
+    <aside className="flex flex-col gap-6">
       <Tags />
-      <Roadmap />
+      <SidebarRoadmap />
     </aside>
   );
 }

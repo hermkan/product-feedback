@@ -2,7 +2,7 @@ import React from 'react';
 
 function Comment() {
   return (
-    <div className="mt-20 w-w-com h-h-com grid grid-cols-8 grid-rows-2 bg-skin-fill">
+    <div className="grid grid-cols-8 grid-rows-2 bg-skin-fill border-4">
       <div className="photo flex justify-center col-start-1 pt-4">
         <div className="w-w-photo h-h-photo rounded-full ">
           <img

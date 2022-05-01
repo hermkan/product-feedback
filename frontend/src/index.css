@@ -50,6 +50,7 @@ li {
 body {
   font-family: 'Jost', sans-serif;
   background-color: var(--color-body);
+  /* background-color: green; */
   min-height: 100vh;
   padding: 3rem;
 }

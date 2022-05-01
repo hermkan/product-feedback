@@ -3,13 +3,15 @@ import AddFeedbackbuttonNoPlus from './AddFeedbackbuttonNoPlus';
 import CancelButton from './CancelButton';
 import DeleteButton from './DeleteButton';
 import EditFeedBackIcon from './EditFeedBackIcon';
+import GoBackButton from './GoBackButton';
 import StatusDropDown from './StatusDropDown';
 
 function EditFeedBackForm() {
   return (
-    <div className="w-w-edit-feedb-form flex  mt-10 relative h-h-form-cont">
-      <div className="mt-10 w-w-edit-form h-h-edit-feed-form bg-skin-fill rounded-10 pt-16 pl-10">
-        <div className="absolute top-6 left-16">
+    <div className="w-w-edit-feedb-form flex relative flex-col gap-14">
+      <GoBackButton />
+      <div className="w-w-edit-form h-h-edit-feed-form bg-skin-fill rounded-10 pt-16 pl-10">
+        <div className="absolute top-14 left-16">
           <EditFeedBackIcon />
         </div>
         <div className=" w-w-edit-form-title h-h-edit-form-title">

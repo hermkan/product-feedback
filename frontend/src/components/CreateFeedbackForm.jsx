@@ -6,18 +6,18 @@ import NewFeedBackDropDown from './NewFeedBackDropDown';
 
 function CreateFeedbackForm() {
   return (
-    <div className="h-h-edit-cont w-w-edit-form flex items-end mt-10 relative">
-      <div className="mt-10 w-w-edit-form h-h-edit-form bg-skin-fill rounded-10 pt-16 pl-10 ">
-        <div className="absolute top-28 left-16">
+    <div className="w-w-edit-form flex items-end relative ">
+      <div className="w-w-edit-form bg-skin-fill rounded-10 pt-16 pl-10 pb-10 ">
+        <div className="absolute -top-8 left-9">
           <AddFeedbackIcon />
         </div>
-        <div className="w-w-edit-title h-h-edit-title">
+        <div className="w-w-edit-title h-h-edit-title mb-10">
           <h2 className="font-bold text-4xl text-skin-accent-navy w-full">
             Create New Feedback
           </h2>
         </div>
 
-        <form action="" className="mt-10 flex flex-col gap-6">
+        <form action="" className="flex flex-col gap-6">
           <div className="Feedback title h-24 flex flex-col gap-4">
             <label htmlFor="" className="h-1/2">
               <p className=" text-skin-accent-navy text-sm font-bold">

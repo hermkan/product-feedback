@@ -4,7 +4,7 @@ import PostCommentsButton from './PostCommentsButton';
 
 function AddComments() {
   return (
-    <div className="w-w-cmts h-h-cmts bg-skin-fill mt-10 p-4 flex items-center justify-center">
+    <div className="w-w-cmts h-h-cmts bg-skin-fill p-4 flex items-center justify-center rounded-10">
       <div className="flex flex-col gap-4 justify-center">
         <div className="flex flex-col gap-4">
           {/* <span>Add comment</span> */}

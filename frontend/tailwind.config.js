@@ -25,11 +25,16 @@ module.exports = {
       colors: {
         'purple-100-hover': '#C75AF6',
         'purple-200': '#4661e6',
+        'purple-200-hover': '#7C91F9',
         'com-slate-200': '#F7F8FD',
         'accent-navy': '#3A4374',
         'accent-slate-hover': '#656EA3',
         'accent-orange': '#D73737',
+        'accent-orange-100': ' #F49F85',
         'accent-orange-hover': '#E98888',
+        'text-slate-button': '#647196',
+        'divide-color': '#8C92B3',
+        'aligner-color': '#647196;',
       },
       textColor: {
         skin: {
@@ -82,6 +87,11 @@ module.exports = {
         'w-edit-icon': '3.5rem',
         'w-edit-feedb-form': '33.75rem',
         'w-edit-form-title': '28.5rem',
+        'w-header-rdmap': '69.375rem',
+        'w-rdmap-task': '21.875rem',
+        'w-vot-lg': '4.3125rem',
+        'w-comm-cont': '45.625rem',
+        'w-align': '1px',
 
         // mobile:
       },
@@ -100,7 +110,7 @@ module.exports = {
         'h-typ-cmts': '5rem',
         'h-com': '190px',
         'h-photo': '2.5rem',
-        'h-edit-form': '41.0625rem',
+        'h-edit-form': '33.75rem',
         'h-edit-input': '3rem',
         'h-edit-title': '2.1875rem',
         'h-edit-cont': '50rem',
@@ -110,6 +120,12 @@ module.exports = {
         'h-edit-feed-form': '51.375rem',
         'h-edit-form-title': '2.1875rem',
         'h-form-cont': '51.875rem',
+        'h-header-rdmap': '7.0625rem',
+        'h-rdmap-task': '17rem',
+        'h-vot-lg': '2.5rem',
+        'h-no-fdbck': '37.5rem',
+        'h-comm-cont': '46.6875rem',
+        'h-align': '267px',
       },
       borderRadius: {
         10: '.625rem',
